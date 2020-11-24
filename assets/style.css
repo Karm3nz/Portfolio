@@ -27,11 +27,16 @@ img{
   width: auto;
 }
 
+
+.section_edit {
+  background-image: none;
+}
+
+
 .header{
   color: black;
   text-shadow: -2px 2px 2px grey;
 }
-
 
 /* Text Stuff */
 h3 {
@@ -46,7 +51,7 @@ h5 {
 
 h6, .li {
   color: white;
-  text-shadow: -2px 2px 2px grey;
+  text-shadow: -2px 2px 2px rgb(66, 66, 66);
   list-style-type: circle !important
 }
 /* Date-Night Aplication Screenshot */
