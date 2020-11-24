@@ -10,6 +10,30 @@ img{
 }
 
 .me {
-  height: 50px;
+  max-height: fit-content;
   width: auto;
+}
+
+.header{
+  color: black;
+  text-shadow: -2px 2px 2px grey;
+}
+
+.section {
+ background-image: url(gplaypattern_@2X.png);
+}
+
+.collapsible-body {
+  background-image: url(grey_wash_wall_@2X.png);
+}
+
+
+h3 {
+  color: black;
+  text-shadow: -2px 2px 2px white;
+}
+
+h6 {
+  color: white;
+  text-shadow: -2px 2px 2px grey;
 }
