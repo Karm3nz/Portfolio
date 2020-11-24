@@ -1,0 +1,15 @@
+/* CSS for index.html  */
+
+/* Parallax images below/above main content */
+.parallax-container {
+    height: 400px;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+.me {
+  height: 50px;
+  width: auto;
+}

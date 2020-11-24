@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Reset CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/reset.css"/>
+    <!-- Matrialize CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>CH Portfolio</title>
+  </head>
+  <body>
+      <!--Parallax Container Picture 1 -->
+      <div class="parallax-container">
+        <div class="parallax"><img src="assets/pexels-gemma-underwood-1112424.jpg"></div>
+      </div>
+        <!--MAIN CONTENT-->
+        <div class="section white">
+          <div class="row container">
+            <!--Some "slogan" here-->
+            <h2 class="header">Hey there. My name is Carmen.</h2>
+            <p class="grey-text text-darken-3 lighten-3">This is my portfolio page :)</p>
+            <br>
+            <!--COLLAPSIBLE COMPONENT-->
+            <ul class="collapsible">
+              <!--About Me-->
+              <li>
+                <div class="collapsible-header"><i class="material-icons">filter_drama</i>About Me</div>
+                <div class="collapsible-body">
+                  <h2 class="header">About Me</h2>
+                  <p class="grey-text text-darken-3 lighten-3">Hello, my name is Carmen. I graduated Ryerson University with a BComm degree majoring in human resources. Nearing graduation, I became more and more aware that human resources was not going to be my career. I took some time after graduation to figure out what I wanted to pursue next. With advice from peers, some basic work from a friend studying computer science, as well as further research, I found myself wanting to learn more.
+        
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+              </li>
+              <!--Second-->
+              <li>
+                <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+              </li>
+              <!--Third-->
+              <li>
+                <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+        <!--Parallax Container Picture 2 -->
+        <div class="parallax-container">
+          <div class="parallax"><img src="assets/pexels-pixabay-157604.jpg"></div>
+      </div>
+      <!--Jquery-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <!-- Materialize JS CDN -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script>
+          $(document).ready(function(){
+          $('.parallax').parallax();
+          $('.collapsible').collapsible();
+          });
+      </script>
+  </body>
+</html>
