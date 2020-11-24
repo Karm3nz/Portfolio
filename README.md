@@ -5,7 +5,7 @@ Hello there!
 
 My name is Carmen Hui. A little bit about myself... I've pet hamster that is in her mid 20s, I love watching whodunnit films, and I am studying web development.
 
-This is my portfolio webpage. The creation of this webpage is to be able to continue to build upon it throughout the up coming weeks and months to not only display the knowledge and skills gained, but to also practice what I have learned thus far. I trust that by the end of the program I will be able to present a more complex, dynamic portfolio page to impress employers!
+This is my portfolio webpage. The creation of this webpage is to be able to continue to build upon it throughout the up coming weeks and months to not only display the knowledge and skills gained, but to also practice what I have learned thus far. I trust that by the end of the program I will be able to continue updating this portfolio into a more complex, dynamic portfolio page.
 
 
 ## Features
@@ -36,7 +36,7 @@ CH Portfolio website allows the web creator to visually showcase best work, disp
 
 To arrive at Portfolio web page, type in :  https://karm3nz.github.io/Portfolio/ on the address bar on the web browser and hit the "enter" key.
 
-![Portfolio Home Screenshot]( )
+![Portfolio Home Screenshot](portfolio_screenshot.png)
 
 
 ## Credits
@@ -53,3 +53,27 @@ Pictures:
 Patterns:
 * https://www.toptal.com/designers/subtlepatterns/gplay/
 * https://www.toptal.com/designers/subtlepatterns/grey-washed-wall/
+
+## License
+
+MIT License
+
+Copyright (c) [2020] [Carmen Hui]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

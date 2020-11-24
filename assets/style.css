@@ -9,6 +9,19 @@ img{
   height: auto;
 }
 
+/* MAIN CONTENT */
+
+/* Background Patterns from https://www.toptal.com/designers/subtlepatterns/ */
+.section {
+  background-image: url(gplaypattern_@2X.png);
+}
+ 
+.collapsible-body {
+   background-image: url(grey_wash_wall_@2X.png);
+}
+ 
+
+/* Profile Picture */
 .me {
   max-height: fit-content;
   width: auto;
@@ -19,27 +32,25 @@ img{
   text-shadow: -2px 2px 2px grey;
 }
 
-.section {
- background-image: url(gplaypattern_@2X.png);
-}
 
-.collapsible-body {
-  background-image: url(grey_wash_wall_@2X.png);
-}
-
-
+/* Text Stuff */
 h3 {
   margin-bottom: -10px;
   color: black;
   text-shadow: -2px 2px 2px white;
 }
 h5 {
-  color: rgb(36, 36, 36);
-  text-shadow: -2px 2px 2px grey;
+  color: rgb(27, 27, 27);
+  text-shadow: -1px 1px 1px rgb(216, 216, 216);
 }
 
 h6, .li {
   color: white;
   text-shadow: -2px 2px 2px grey;
   list-style-type: circle !important
+}
+/* Date-Night Aplication Screenshot */
+.dateNight {
+  height: auto;
+  width: auto;
 }
